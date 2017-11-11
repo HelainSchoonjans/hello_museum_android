@@ -42,7 +42,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickCall(View view) {
-        String number = "+32 473 411 314";
+        // Samsung 1
+//        String number = "+32 494 282 306";
+        // Samsung 2
+        String number = "+32 494 283 665";
+        // TODO HSC: change the number
         Uri call = Uri.parse("tel:" + number);
         Intent callIntent = new Intent(Intent.ACTION_CALL, call);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
