@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickCall(View view) {
         // Samsung 1
-//        String number = "+32 494 282 306";
+        String number = "+32 494 282 306";
         // Samsung 2
-        String number = "+32 494 283 665";
+//        String number = "+32 494 283 665";
         // TODO HSC: change the number
         Uri call = Uri.parse("tel:" + number);
         Intent callIntent = new Intent(Intent.ACTION_CALL, call);
