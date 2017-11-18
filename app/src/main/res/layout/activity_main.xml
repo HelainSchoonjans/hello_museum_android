@@ -25,4 +25,13 @@
         android:onClick="onClickCall"
         android:text="Call" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_tel"
+        android:layout_marginTop="473dp"
+        android:layout_toEndOf="@+id/spinner_tel"
+        android:text="Button" />
+
 </RelativeLayout>
